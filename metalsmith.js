@@ -11,7 +11,7 @@ Metalsmith(__dirname)
   .metadata({
     site: {
       title: 'Power of static sites',
-      baseurl: 'http://localhost:4000',
+      baseurl: 'https://danielfdsilva.github.io/harness-pixels',
       author: 'Daniel da Silva'
     }
   })
