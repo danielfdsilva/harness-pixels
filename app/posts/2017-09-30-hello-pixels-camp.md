@@ -1,6 +1,6 @@
 ---
 layout: post.html
-published: false
+published: true
 title: Hello pixels camp
 author: Daniel da Silva
 ---
