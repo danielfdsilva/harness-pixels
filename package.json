@@ -1,0 +1,21 @@
+{
+  "name": "power-static-sites",
+  "version": "1.0.0",
+  "description": "Demo site for pixels.camp talk 'Harness the power of static sites'",
+  "author": {
+    "name": "Daniel da Silva"
+  },
+  "scripts": {
+    "test": "echo \"All ok!\" && exit 0"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "metalsmith": "^2.3.0",
+    "metalsmith-collections": "^0.9.0",
+    "metalsmith-debug": "^1.1.0",
+    "metalsmith-layouts": "^1.8.1",
+    "metalsmith-markdown": "^0.2.1",
+    "metalsmith-permalinks": "^0.5.0"
+  }
+}

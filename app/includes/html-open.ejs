@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+      <% if (title === 'Home') {%>
+        <%= site.title %>
+      <% } else { %>
+        <%= title %> &middot; <%= site.title %>
+      <% } %>
+    </title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="<%= site.baseurl %>/assets/site.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700">
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="nav-container">
+        <a href="<%= site.baseurl %>/">
+          <h2 class="nav-title"><%= site.title %></h2>
+        </a>
+        <ul>
+          <li><a href="<%= site.baseurl %>/about/">About</a></li>
+          <li><a href="<%= site.baseurl %>/">Posts</a></li>
+        </ul>
+    </div>
+  </nav>
+    <main>

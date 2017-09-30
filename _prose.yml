@@ -1,0 +1,23 @@
+prose:
+  rooturl: app
+  ignore:
+    - app/assets
+    - app/includes
+    - app/layouts
+    - index.html
+  metadata:
+    "app/posts":
+      - name: "title"
+        field:
+          element: "text"
+          label: "Post title"
+          value: ""
+      - name: "author"
+        field:
+          element: "text"
+          label: "Author"
+          value: ""
+      - name: 'layout'
+        field:
+          element: "hidden"
+          value: "post.html"
